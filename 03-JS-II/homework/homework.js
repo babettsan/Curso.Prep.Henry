@@ -5,11 +5,10 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
-  if(x>y){
-      console.log('El mayor es: x');
-  }else {
-      console.log('El mayor es: y');
+   if(x > y) {
+    return x;
   }
+  return y;
 }
 
 function saludo(idioma) {
@@ -19,16 +18,15 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
-  if(idioma=="aleman" ){
-    console.log("Guten Tag!");
+ if(idioma === 'aleman') {
+    return 'Guten Tag!';
+  } else if (idioma === 'mandarin') {
+    return 'Ni Hao!';
+  } else if (idioma === 'ingles') {
+    return 'Hello!';
+  } else {
+    return 'Hola!';
   }
-  if(idioma=="mandarin" ){
-     console.log("Ni Hao!"); 
-  }
-  if(idioma=="ingles" ){
-     console.log("Hello!"); 
-  }
-  
 
 }
 
