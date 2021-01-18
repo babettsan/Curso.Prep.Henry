@@ -2,16 +2,34 @@ h1{
     color:gold;
 }
 img{
-    widows: 200px;
+    width:400px;
 }
 #thirdDiv{
     background-color:black;
-    width:600px ;
+    width:500px ;
     height: 500px;
     padding: 50px;
     border: 10px solid blue;
+    display:block;
+    margin:auto;
+    
 }
  #spanId{
      font-size: 18px;
      margin: 50px;
  }
+
+/*muestra polenta de fondo*/
+    body { 
+        background: white url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq8PYDmO20X2E2ZrVqK4FFUhoxOwuVbAahbw&usqp=CAU");
+
+      }    
+      div {
+        float: center;
+        display: -webkit-flex;
+        display:         flex;
+        -webkit-align-items: center;
+                align-items: center;
+        -webkit-justify-content: center;
+                justify-content: center;
+      }
